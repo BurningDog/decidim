@@ -30,16 +30,16 @@ Once created you are ready to:
 
 - `bin/rails s`
 
-## Gitflow Branching model
+## GitFlow Branching model
 
-The Decidim respository follows the Gitflow branching model. There are good documentations on it at:
+The Decidim respository follows the GitFlow branching model. There are good documentations on it at:
 
 - the original post: https://nvie.com/posts/a-successful-git-branching-model/
 - provided by Atlassian: https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow.
 
 This model introduces the `develop` branch as a kind of queue for new features to enter into the next release.
 
-In summary, Decidim developers that work on `feature/...` or `fix/...` branches will branch off from `develop` and must be merged back into `develop`.
+In summary, Decidim developers that work on `feat/...` or `fix/...` branches will branch off from `develop` and must be merged back into `develop`.
 
 Then, to start a new feature branch off from `develop` in the following way:
 
